@@ -1,0 +1,13 @@
+name: demo-file
+
+on: push
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      -name: first-action
+      run: echo "Hello Welcome to devops"
+      
+
+  
