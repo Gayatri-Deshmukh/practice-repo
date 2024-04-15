@@ -6,8 +6,8 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      -name: first-action
-      run: echo "Hello Welcome to devops"
+      - name: first-action
+        run: echo "Hello Welcome to devops"
       
 
   
